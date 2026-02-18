@@ -181,14 +181,14 @@
 /* =========================
    BRAND – TEXTO
 ========================= */
-.brand-text h1 {
+.brand-name {
   margin: 0;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   font-weight: 700;
   color: #4b1d6f;
 }
 
-.brand-text p {
+.brand-text p:not(.brand-name) {
   margin: 0;
   font-size: 0.75rem;
   color: var(--color-secondary);
